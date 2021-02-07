@@ -17,7 +17,7 @@ Clone the github repo
 
 `cd SMarkets-event-lister`
 
-`docker-compose up --build`
+`docker-compose up --build` or `npm run app:start:prod`
 
 You can reach the site on localhost directly on port 80
 
@@ -29,9 +29,13 @@ You can also use the project in development mode
 
 Clone the github repo
 
-`git clone https://github.com/Batuu13/#`
+`git clone https://github.com/Batuu13/SMarkets-event-lister.git`
 
 `cd SMarkets-event-lister`
+
+`npm install`
+
+`npm run app:install`
 
 `npm start`
 
@@ -57,3 +61,10 @@ Here are some features that can be missed because they are not always obvious bu
 * Using effects. On filter or url changes effects can be used to trigger api calls or to dispatch actions on errors. I didn't use this feature because I only used it on Angular before and I didn't want to implement it without knowing how to do it properly in React.
 * Scss could be used. Again, depending on the development needs, it could be used instead of Material UI's own styling.
 * Design could be more responsive. But I wanted to spend my time more on functionaly of the components and to make the project easy to use/navigate
+* Testing could be better to improve code coverage. I just wanted to handle different type of tests in general.
+
+## Testing
+
+To test the frontend project, you can use `npm test` inside the *frontend/App* folder.
+
+In order to run the test with code coverage report you can run `npm test -- --coverage` and can find the report at *frontend/App/coverage/Icov-report/index.html* in html page.
