@@ -15,7 +15,11 @@ Clone the github repo
 
 `git clone https://github.com/Batuu13/SMarkets-event-lister.git`
 
+Move to the project folder
+
 `cd SMarkets-event-lister`
+
+Build and run the app
 
 `docker-compose up --build` or `npm run app:start:prod`
 
@@ -31,11 +35,19 @@ Clone the github repo
 
 `git clone https://github.com/Batuu13/SMarkets-event-lister.git`
 
+Move to the project folder
+
 `cd SMarkets-event-lister`
+
+Install wrapper dependencies
 
 `npm install`
 
+Install both of the project's dependencies
+
 `npm run app:install`
+
+Start the app
 
 `npm start`
 
