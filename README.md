@@ -9,6 +9,8 @@ In this project, there two sections as frontend and backend. Backend is a simple
 
 ## How to run
 
+In order to run the project you should have **node** and **docker (only needed for production)** installed.
+
 ### Production
 
 Clone the github repo
